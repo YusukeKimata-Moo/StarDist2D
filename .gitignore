@@ -1,0 +1,37 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.env.*
+
+# Generated StarDist outputs
+stardist_2d_results/
+stardist_2d_test_results/
+*_stardist_labels.tif
+*_stardist_binary_mask.tif
+*_stardist_overlay.png
+*_stardist_measurements.csv
+
+# Local test images
+/*.tif
+/*.tiff
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp

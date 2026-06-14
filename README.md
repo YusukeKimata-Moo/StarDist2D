@@ -8,12 +8,6 @@ Google Colab で 2D 蛍光 TIFF 画像を StarDist の学習済みモデル `2D_
 
 対象は、核などの単一チャンネル蛍光 intensity 画像です。RGB brightfield 画像や 3D stack TIFF は対象外です。
 
-## ファイル
-
-- `StarDist_2D_versatile_fluo_colab.ipynb`: Colab で実行するメイン notebook
-- `260611_2.tif`: 動作確認用のサンプル TIFF
-- `260611_2_med4.tif`, `260611_2_gau2.tif`: 前処理比較用のサンプル TIFF
-
 ## 使い方
 
 1. このリポジトリを開き、`StarDist_2D_versatile_fluo_colab.ipynb` を Google Colab で開きます。
